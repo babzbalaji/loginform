@@ -1,0 +1,44 @@
+body
+{
+	background: #4F257B;
+}
+.form-group
+{
+	width: 300px;
+}
+h4
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 100px;
+}
+form
+{
+	background-color: #B58FDD;
+	border-radius: 5px;
+	border: 2px solid #B58FDD;
+	padding: 50px;
+}
+input
+{
+	border-radius: 0px!important;
+	border: none;
+}
+label
+{
+	font-size: 15px;
+	color: white;
+	font-weight: 600;
+}
+@media only screen and (max-width: 700px)
+{
+	.form-group
+	{
+		width: 250px;
+	}
+	form
+	{
+		padding: 30px;
+	}
+}
